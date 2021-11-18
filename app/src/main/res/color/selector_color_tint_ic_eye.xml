@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="true" android:state_accelerated="false"
+        android:color="@color/black_extra_light"/>
+
+    <item android:state_enabled="true" android:state_accelerated="true"
+        android:color="@color/app_color"/>
+
+    <item
+        android:color="@color/app_grey_default"/>
+
+
+</selector>

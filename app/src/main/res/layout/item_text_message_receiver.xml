@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/message_layout_receive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/white">
+
+        <FrameLayout
+            android:id="@+id/message_root_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="16dp"
+            android:background="@drawable/shape_text_message"
+            android:backgroundTint="@color/white_light"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/tv_message_receive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="256dp"
+                android:text="Hi! Mahmoud, how are you?"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_message_time_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="12:12pm"
+            android:textSize="10sp"
+            android:textColor="@color/_grey"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintTop_toBottomOf="@+id/message_root_receive"
+            app:layout_constraintStart_toStartOf="@+id/message_root_receive" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

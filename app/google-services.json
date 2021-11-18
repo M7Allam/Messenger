@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "106725093955",
+    "project_id": "messenger-1c67b",
+    "storage_bucket": "messenger-1c67b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106725093955:android:be08089366ca305768daf6",
+        "android_client_info": {
+          "package_name": "com.example.messengerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106725093955-hiq4ocfj1d5vnv7l33i13dc485sdgr66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKIgI-za-S0t7HfV6nW0fwFTRgEKxAw38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106725093955-hiq4ocfj1d5vnv7l33i13dc485sdgr66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106725093955:android:c8b7b196734eea1768daf6",
+        "android_client_info": {
+          "package_name": "com.mahmoudallam.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106725093955-qkn793ik2udspgm59bhui01ppldcoum5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mahmoudallam.messenger",
+            "certificate_hash": "356d4c840c894ccb7e66d4977344c88aacdc9a3a"
+          }
+        },
+        {
+          "client_id": "106725093955-hiq4ocfj1d5vnv7l33i13dc485sdgr66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKIgI-za-S0t7HfV6nW0fwFTRgEKxAw38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106725093955-hiq4ocfj1d5vnv7l33i13dc485sdgr66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
